@@ -1,0 +1,12 @@
+---
+- hosts: all
+  sudo: yes
+  roles:
+          - common
+
+- hosts: primary
+  sudo: yes
+  roles:
+          - primary
+          - machine
+
