@@ -1,0 +1,9 @@
+# Account name of remote user. Ansible will use this user account to ssh into
+# the managed machines. The user must be able to use sudo without asking
+# for password.
+ansible_ssh_user: root
+
+# Internal DNS configuration.
+# Turn this varable to 'false' to disable whole DNS configuration.
+dns_setup: false
+

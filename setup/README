@@ -1,0 +1,3 @@
+# run a ping
+$ ansible-playbook -i inventory ping.yml
+

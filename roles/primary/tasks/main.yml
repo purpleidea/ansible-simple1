@@ -1,0 +1,4 @@
+---
+- name: write a simple primary file
+  template: src=primary.j2 dest=/root/primary
+

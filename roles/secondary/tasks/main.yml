@@ -1,0 +1,4 @@
+---
+- name: write a simple secondary file
+  template: src=secondary.j2 dest=/root/secondary
+

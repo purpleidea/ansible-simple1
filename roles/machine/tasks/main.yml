@@ -1,0 +1,4 @@
+---
+- name: write a simple file
+  template: src=ANSIBLE.j2 dest=/root/ANSIBLE
+
